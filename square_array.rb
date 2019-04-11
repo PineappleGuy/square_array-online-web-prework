@@ -1,8 +1,9 @@
-array = [1, 2, 3]
+
 def square_array(array)
   # your code here
-  array.each do |int|
-    int = int * int
-    
+  new_array = Array.new(array.size)
+  array.each do |number|
+    puts "#{number}"
+
   end
 end
