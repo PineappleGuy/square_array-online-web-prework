@@ -2,9 +2,10 @@
 def square_array(array)
   # your code here
   new_array = Array.new(array.size)
+  i = 0
   array.each do |number|
-x = number * number
-    puts "#{x}"
+    new_array[i] = number * number
+    i += 1
 
   end
 end
